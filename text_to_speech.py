@@ -3,11 +3,11 @@ import pyttsx3  # Text to speech synthesizer.
 
 # Init pyttsx3 (Py Text-To-Speech)
 talkbot = pyttsx3.init()
-talkbot.setProperty('rate', 135)                # Setting the voice's talking speed
+talkbot.setProperty('rate', 140)                # Setting the voice's talking speed
 talkbot.setProperty('volume',1.0)               # Setting the volume level between 0 and 1
 voices = talkbot.getProperty('voices')          # Getting details of current voice
-# talkbot.setProperty('voice', voices[0].id)    # Set voice to male 
-talkbot.setProperty('voice', voices[1].id)      # Set voice to female
+talkbot.setProperty('voice', voices[0].id)    # Set voice to male 
+# talkbot.setProperty('voice', voices[1].id)      # Set voice to female
 
 
 
