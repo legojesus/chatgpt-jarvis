@@ -17,4 +17,8 @@ Libraries used:
 
 
 Built and tested on Windows 10 with Python 3.10. 
-This will have different requirements on Mac/Linux due to different sound card/microphone setups. 
+
+### Troubleshooting:
+This will have different requirements on Mac/Linux due to different sound card/microphone setups. If trying this on Mac/Linux, you'll have to add python libraries that support your sound card/microphone. 
+
+If getting errors from OpenAI that the server is overloaded or query timed out - you've made too many queries too fast, or they are actualy overloaded at the moment. You can either upgrade your OpenAI account to premium, or wait a while and try again. 
