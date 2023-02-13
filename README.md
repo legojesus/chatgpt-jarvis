@@ -1,8 +1,12 @@
 # J.A.R.V.I.S AI in Python (ChatGPT)
 This python code allows the user to talk to ChatGPT and hear ChatGPT talk back! Just like JARVIS from Iron Man ;)
+
 The flow is simple: User talks -> speech2text -> ChatGPT -> text2speech -> User. 
 
-Utilizes openAI's python library for ChatGPT completion, speech_recognition library for speech2text abilities via Google, and pyttsx3 for text2speech abilities. 
+Libraries used:
+- openAI's python library for ChatGPT completion
+- SpeechRecognition library for speech2text abilities via Google.
+- pyttsx3 for text2speech abilities. 
 
 
 ### How to run:
